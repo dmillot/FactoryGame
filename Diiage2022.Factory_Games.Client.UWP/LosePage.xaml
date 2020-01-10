@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Diiage2022.Factory_Games.Client.UWP.LosePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Diiage2022.Factory_Games.Client.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="https://media1.tenor.com/images/6d46c278bc8bea36adbced41f730981d/tenor.gif?itemid=12235828"/>
+        </Grid.Background>
+        <Button x:Name="buttonExitGame" Content="Or Click Here" Margin="0,864,0,0" VerticalAlignment="Top" Height="110" Width="468" Background="{x:Null}" BorderBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FontSize="48" HorizontalAlignment="Center" FontWeight="ExtraBold" FontStyle="Italic" Foreground="#FFFF00F3"/>
+
+    </Grid>
+</Page>

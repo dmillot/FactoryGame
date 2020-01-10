@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Diiage2022.Factory_Games.Client.Entities\Diiage2022.Factory_Games.Client.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

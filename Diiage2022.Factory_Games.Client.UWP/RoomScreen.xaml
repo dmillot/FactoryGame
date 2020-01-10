@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="Diiage2022.Factory_Games.Client.UWP.RoomScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Diiage2022.Factory_Games.Client.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="https://media1.tenor.com/images/043c2db6ce558080824e1db878b33882/tenor.gif?itemid=6159814"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock_Wait" HorizontalAlignment="Left" Margin="449,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="105" Width="622" FontSize="72" Grid.ColumnSpan="3"><Run Text="Wait"/><Run Text="ing "/><Run Text="F"/><Run Text="or"/><Run Text=" "/><Run Text="Admin"/></TextBlock>
+
+    </Grid>
+</Page>

@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="Diiage2022.Factory_Game.Server.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Diiage2022.Factory_Game.Server.UWP">
+
+</Application>

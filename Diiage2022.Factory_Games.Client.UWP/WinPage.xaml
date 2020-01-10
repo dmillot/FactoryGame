@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Diiage2022.Factory_Games.Client.UWP.WinPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Diiage2022.Factory_Games.Client.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="https://media1.tenor.com/images/1c1a42f6ec7dfbe8d38c3756dc5151e4/tenor.gif?itemid=5026836"/>
+        </Grid.Background>
+
+    </Grid>
+</Page>
